@@ -1,0 +1,6 @@
+The worst case scenario for comb sort would be if the unsorted array is first
+organized in an descending manner. The worst case would be O(n^2). This is 
+because in the first loop, it takes n times to run. The loop will continue 
+n amount of times. So, the overall run time will be the n amount of times 
+it loops through the array once and it will run until the gap is 1. This will 
+take n amount of times to do. Overall, the worst case scenario is O(n^2).
