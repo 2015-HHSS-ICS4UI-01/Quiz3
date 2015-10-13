@@ -31,7 +31,7 @@ public class Quiz3 {
             gap = (int)(gap/shrink); //finding the new gap
             if (gap < 1)
             {
-                gap = 1; //if the gap is less than 1 (as a result of too much shrinkage), set it qual to 1
+                gap = 1; //if the gap is less than 1 (as a result of too much shrinkage), set it equal to 1
             }
             
             int i = 0; //initialize increment variable
