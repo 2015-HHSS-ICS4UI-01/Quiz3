@@ -1,0 +1,6 @@
+In the case of Comb Sort, the two loops (one nested within the other) indicate that the worst case scenario is O(n^2).
+Depending on how the array is sorted, the runtime can be different. For example, the first loop will run n times. The second loop 
+depends on how sorted the array is and can run less than n times. In the worst case, the second loop will also have to run almost exactly n times. 
+Therefore, the runtime can be stated as O(n^2) when the array is large enough that coefficients and other terms in the original
+runtime polynomial are insignificant to the number of comparisons/actions and the only significant parts are the 
+2 loops (n*n). 
