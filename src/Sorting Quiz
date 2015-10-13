@@ -1,0 +1,6 @@
+Big O of N: Because the while loop will not run as many times as the for loop, which will run an amount of times being n
+                Where the while loop only needs to run until the value of gap is one and then once it has had no more swaps
+                There fore the for loop will need to run a much larger amount of times where as the while loop may only need
+                to be ran 6 times in comparison to that of the 8 times that the for loop was ran, therfore the big O notation
+                is not n^2 and at the same time it is not a constant due to it running the for and while loops in a exponential
+                fashion in relation to the length of the array and the matter of how pre-sorted the values are.
