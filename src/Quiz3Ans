@@ -1,0 +1,7 @@
+The efficiency of Comb Sort is O(N^2).
+
+In the worst case, the larger numbers are at the beginning of the array,
+and the smaller numbers are at the end. This means that the program will have to go through the entire array,
+and each number will have to be swapped at least once, in order to get the bigger numbers to the other side of the array;
+all while counting up by 1 each time.
+
