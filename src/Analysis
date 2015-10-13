@@ -1,0 +1,4 @@
+The worst case for Comb sort would be if that if the array that given to be arranged was in decreasing order or if the smaller integers were placed near the middle of the array. 
+This would mean that the array would have to go compare all the numbers in the start and end of the array and would only make few changes. This results in longer runtime periods because 
+the method has to compare the number at the start and end before it can get to the middle of the array and start to swap numbers. Also the program would have to wait until  it got a smaller 
+gap until it could start to make changes if the numbers that needed to be swapped were separated by 1 value in the array.
