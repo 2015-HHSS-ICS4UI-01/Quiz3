@@ -1,0 +1,8 @@
+Worst Case: O(n^2)
+In large arrays, the most important factors are the loops. 
+-the first loop is a factor of n as it is repeated in its entirety each time.
+-the second loop will execute close to n depending on the value of the gap
+---if the gap is 1 or close to 1, the second loop will loop very close to n since [i+gap] will satisfy almost every value other than the very last few.
+------therefore, a factor that, in the worst case, is very close to n (perhaps n/3 on average) will be repeated by a factor of n
+-------->factor close to n (n/3) repeated by factor n (n/3 * n) can therefore be modelled by O(n^2)
+-
