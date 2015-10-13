@@ -1,4 +1,5 @@
 therefore, it's O(n^2), since the nested loops are resulting in the inner loop being activated an
     x amount of times, n amount of times (where n depends on the size of the array). Since this x value
-    depends on the n value, where the "n.length" condition is reached based on the size of the array
-    and the resulting gap of each run through, the overall expression can be approximated to O(n*n), or O(n^2)
+    depends on the n value, where the "n.length" condition is reached only based on the size of the array
+    AND the resulting gap of each run through, which is once again determined by the initial n value,
+    the overall expression can be approximated to O(n*n), or O(n^2)
