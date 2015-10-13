@@ -1,0 +1,4 @@
+Since there is upwards of 3 loops to be ran per operation so when there is a very large array, then it
+will take a very long time to sort. But since there is a shrink factor in the gap, it makes it more 
+efficient than the likes of a sort method like bubble sort as the gap will reduce the damaged cause by
+turtles. 
