@@ -1,0 +1,4 @@
+Perhaps comb sort would fail in very large arrays as with a shrink factor of 1.3
+As the authors said too small of a value would cause more comparisons therefor 
+using this information we can assume the combSort method only works on arrays of 
+a certain length before becoming insufficient.
