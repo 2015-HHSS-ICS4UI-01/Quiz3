@@ -1,0 +1,2 @@
+The big O for the worst case for comb sort is O(n^2). It is similar to bubble sort. However,for the best case,
+comb sort can be more efficient than bubble sort.
