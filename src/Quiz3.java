@@ -19,13 +19,11 @@ public class Quiz3 {
             //it is not swapped
             swapped = false;
             //shrink the gap
-            if(gap > 1)
-            {  
                gap = (int)(gap/shrink);
-            }
+            
 
             //loop through the array and "comb" over array
-            for (int i = 0; i + gap <= n.length - 1; i++) {
+            for (int i = 0; i + gap <= n.length -1; i++) {
                 if(n[i] > n[i + gap])
                 {
                     //swap the two numbers
