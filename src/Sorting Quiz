@@ -1,0 +1,3 @@
+The worst case for comb sort is O(n^2)
+
+This is because comb sort is very close to bubble sort in the way that
