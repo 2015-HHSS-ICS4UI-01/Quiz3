@@ -9,14 +9,22 @@
  */
 public class CombQuiz {
 
-
+// i could not make it so it would "reset" as in breaking the loop so the gap could be
+    //divided up again. i also could not get the out of bounds to work.
+    //when i did it only when throught the algorithim once then stoped.
+    // so i stoped that and tried to make it return but i got out of bound expectation
    public void combSort(int[] n){
    boolean swapped = false;
    do{
-      int gap = (int) (n.length/1.3);
       swapped = false;
       
       for(int i = 0; i < n.length - 1; i++){
+          
+          int gap = (int) (n.length/1.3);
+          
+         if(n[i+gap] <= n.length)
+         { 
+   
           
          if(n[i] > n[i+gap]){
             int temp = n[i];
@@ -25,9 +33,9 @@ public class CombQuiz {
             swapped = true;
             
             if(n[i+gap] >= n.length)
-                i=0;
-                
-            
+             break;
+         }  
+
          }
         
       }
