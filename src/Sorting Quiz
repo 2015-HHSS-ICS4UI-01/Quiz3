@@ -1,0 +1,4 @@
+The worst case for Comb Sort is O(n^2)
+It is similar to bubble sort, but it will need to run through the length of the gap,
+and then inside of this it will need to run the length of the integer.
+I know how this program works I'm just struggling with how to explain it.
