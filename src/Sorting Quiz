@@ -1,0 +1,14 @@
+Worst case = reverse order
+
+In the worst case, comb sort is = O(n^2) because the method would have to run through n number of loops for each gap, and n checks within each gap loop.
+
+overall, thats n number of gap loops, and n checks within the n loops which is equal to n^2
+
+in other words, each individual gap loop is the same as the best case scenario for bubble sort which is O(n)
+O(n) must then run n times to account for each gap loop, leading to the O(n^2).
+
+
+
+
+
+
