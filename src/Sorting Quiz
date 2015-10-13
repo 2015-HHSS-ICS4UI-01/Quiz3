@@ -1,0 +1,2 @@
+The worst case for comb sort would be the same as bubblesort O(n^2)
+However the best case would be better because there would be no turtles
