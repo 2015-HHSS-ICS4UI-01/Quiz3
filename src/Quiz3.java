@@ -14,7 +14,7 @@ public class Quiz3 {
      */
     public static void main(String[] args) {
         Quiz3 test = new Quiz3();
-        int[] testArray = {4,3,2,1};
+        int[] testArray = {9,8,7,6,5,4,3,2,1};
         test.combSort(testArray);
         for (Integer i: testArray)
         {
@@ -28,7 +28,6 @@ public class Quiz3 {
      */
     public void combSort(int[] n)
     {
-        int counter = 0;
         int gap = n.length; //initialize gap size
         double shrink = 1.3; //set the gap shrink factor
 
@@ -57,10 +56,8 @@ public class Quiz3 {
                     swapped = true; // array is now unsorted
                 }
                 i++;
-                counter ++;
             }
         }
-        System.out.println("counter" + counter);
     }
     
 }
