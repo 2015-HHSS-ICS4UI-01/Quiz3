@@ -1,0 +1,8 @@
+Sorting quiz written portion.
+
+
+In comb sort the worst case is O(n^2), this is due to the fact in its similarity to bubble sort, that the
+number of times that it will run, will be the same as bubble sorts worst case. In the best case 
+however these two can be different in that comb sort will not run as many times through as comb sort does.
+
+So in this case comb sort's notation for the big ) is O(n^2).
