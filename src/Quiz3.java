@@ -26,7 +26,7 @@ public class Quiz3 {
         int gap = n.length; //initial gap length is the same as the array length (will be shrinked later)
         double shrink = 1.3; //shrinkage
         boolean swapped = false; //boolean used to determine if a swap has occurred
-        do //loop until gap == 1 or a swap isnt made
+        do //loop until gap == 1 and a swap isnt made
         {
             gap = (int)(gap/shrink); //finding the new gap
             if (gap < 1)
