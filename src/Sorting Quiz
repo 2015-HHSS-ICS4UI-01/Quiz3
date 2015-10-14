@@ -1,0 +1,20 @@
+WORST CASE
+
+In comb sort, the big O worst case would be quadratic (O(n^2)), because in the worst case, it would be the 
+same as bubblesort, making the same amount of switches as in bubblesort. Both of them goes through
+the list one by one and compares two numbers, and in the worst case, it would switch all of the 
+numbers and go back again to go through the process again, ultimately having the same function as 
+bubblesort but just with a gap in between.
+
+The comb sort would switch through the 1st loop 1 time with a gap of n-1, then go
+back and set the gap smaller, now switching 2 times, until finally 
+it runs n-1 times when the gap becomes 1. It would be the same as bubblesort 
+because bubblesort switches through the first loop n-1 times, then n-2 times, until 
+finally going switches the loop 1 time. This is basically the combsort backwards, therefore
+the big O worst case would be the same.
+
+
+
+
+
+
