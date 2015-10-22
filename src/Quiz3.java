@@ -36,16 +36,16 @@ public class Quiz3 {
 
   public static void combSort(int[] n){
       int gap = n.length;
-      double shrink = 1.3;
+      double shrink = 1.3;             //shrink value
       boolean swapped = false;
    do{
       swapped = false;
-      gap/=shrink;
+      gap/=shrink;                    //gap is divided by shrink value
       if(gap<1){
           gap=1;
       }
       
-      for(int i = 0; i + gap< n.length; i++){
+      for(int i = 0; i + gap< n.length; i++){  //check and swap loop
          if(n[i] > n[i+gap]){
             int temp = n[i];
             n[i] = n[i+gap];
@@ -53,7 +53,7 @@ public class Quiz3 {
             swapped = true;
          }
       }
-   }while(swapped||gap!=1);
+   }while(swapped||gap!=1);  //if gap is greater than 1
 }  
     
     
